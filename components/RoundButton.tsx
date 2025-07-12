@@ -17,7 +17,7 @@ export default function RoundButton({
 }) {
 	return (
 		<Link
-			className="small-text uppercase font-normal font-NeueMontreal"
+			className="small-text uppercase font-normal font-Formiga"
 			href={href}>
 			<Rounded
 				className="py-[6px]"

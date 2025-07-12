@@ -5,7 +5,7 @@ export default function Principles() {
 	return (
 		<section className="w-full padding-y rounded-t-[20px] bg-background">
 			<div>
-				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry mb-[50px]">
+				<h1 className="sub-heading padding-x font-medium font-Formiga text-secondry mb-[50px]">
 					Two principles we stand behind in
 					<br className="sm:hidden xm:hidden" /> every part of our work:
 				</h1>
@@ -19,7 +19,7 @@ export default function Principles() {
 							className="w-full rounded-[15px]"
 						/>
 						<div className="flex flex-col gap-[20px]">
-							<p className="paragraph font-NeueMontreal text-secondry">
+							<p className="paragraph font-Formiga text-secondry">
 								Whether the presentation needs to convince or <br />
 								educate it always has to change audience
 								<br /> perception. We seek insights to make decks
@@ -34,7 +34,7 @@ export default function Principles() {
 							className="w-full rounded-[15px]"
 						/>
 						<div className="flex flex-col gap-[20px]">
-							<p className="paragraph font-NeueMontreal text-secondry">
+							<p className="paragraph font-Formiga text-secondry">
 								The presentation helps to see what&apos;s hidden,
 								<br /> unseen, or simply never known before. We use <br />
 								design to drive their attention, focus them to <br />

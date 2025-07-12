@@ -22,7 +22,7 @@ export default function Ready() {
 			ref={container}>
 			<div className="w-full h-full flex justify-center gap-[50px] items-center flex-col">
 				<div className="flex flex-col gap-[10px]">
-					<h1 className="text-[290px] leading-[230px] lg:text-[220px] lg:leading-[170px] md:text-[180px] md:leading-[140px] sm:text-[120px] sm:leading-[90px] xm:text-[80px] xm:leading-[60px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-secondry uppercase pointer-events-none">
+					<h1 className="text-[190px] leading-[230px] lg:text-[120px] lg:leading-[170px] md:text-[80px] md:leading-[140px] sm:text-[60px] sm:leading-[80px] xm:text-[40px] xm:leading-[60px] tracking-[-2.5px] text-center font-bold font-Formiga text-secondry uppercase pointer-events-none">
 						<TextMask>{phrase}</TextMask>
 					</h1>
 				</div>
@@ -40,12 +40,12 @@ export default function Ready() {
 					<div className="flex items-center justify-between bg-transparent cursor-pointer rounded-full group border border-[#212121]">
 						<Link
 							className="xl:text-[18px] xl:leading-[28px] text-[14px] leading-[24px] uppercase font-normal font-NeueMontreal"
-							href="/contact">
+							href={"mailto:info@balloora.com"}>
 							<Rounded
 								className="py-[6px]"
 								backgroundColor="#212121">
 								<p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-white text-black">
-									hello@ochi.design
+									info@ballora.com
 								</p>
 								<div className="bg-black group-hover:bg-white text-black p-[10px] rounded-full scale-[0.3] mr-[10px] group-hover:scale-[0.9] transition-all z-10 transform duration-[0.3s] ease-[.215,.61,.355,1]">
 									<ArrowUpRight

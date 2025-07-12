@@ -10,7 +10,7 @@ export default function Capibilyties() {
 	return (
 		<div className="w-full bg-about padding-y rounded-t-[20px]">
 			<div className="w-[82%] sm:w-full xm:w-full padding-x mb-[70px]">
-				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
+				<h1 className="sub-heading font-normal font-Formiga text-secondry">
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
 						Let’s be honest.
 					</span>
@@ -25,7 +25,7 @@ export default function Capibilyties() {
 			</div>
 			<div className="w-full flex sm:flex-col xm:flex-col justify-between py-[20px] padding-x border-t border-[#21212155] sm:gap-[15px] xm:gap-[15px]">
 				<div className="w-[10%] sm:w-full xm:w-full">
-					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+					<h3 className="paragraph font-medium text-secondry font-Formiga">
 						Our Capabilities:
 					</h3>
 				</div>
@@ -60,7 +60,7 @@ export default function Capibilyties() {
 								<div className="flex gap-x-[10px] flex-col">
 									<div className="flex items-center gap-x-[10px] pb-[20px]">
 										<span className="w-[12px] h-[12px] rounded-full bg-secondry" />
-										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-secondry">
+										<h1 className="paragraph uppercase font-medium font-Formiga text-secondry">
 											{item.title1}
 										</h1>
 									</div>
@@ -82,7 +82,7 @@ export default function Capibilyties() {
 								<div className="flex gap-x-[10px] flex-col">
 									<div className="flex items-center gap-x-[10px] pb-[20px]">
 										<span className="w-[12px] h-[12px] rounded-full bg-secondry" />
-										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-secondry">
+										<h1 className="paragraph uppercase font-medium font-Formiga text-secondry">
 											{item.title2}
 										</h1>
 									</div>

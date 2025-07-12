@@ -12,7 +12,8 @@ const config: Config = {
     extend: {
       colors: {
         background: "#f1f1f1",
-        secondry: "#212121",
+        primery: "#AEEC7A",
+        secondry: "#102E2A",
         marquee: "#004d43",
         about: "#cdea68"
       },
@@ -20,6 +21,16 @@ const config: Config = {
     fontFamily: {
       FoundersGrotesk: ["FoundersGrotesk", "sans-serif"],
       NeueMontreal: ["NeueMontreal", "sans-serif"],
+      Formiga: ["Formiga", "sans-serif"]
+    },
+    fontWeight: {
+      light: "300",
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+      extrabold: "800",
+      black: "900",
     },
     screens: {
       xm: { max: "400px" },

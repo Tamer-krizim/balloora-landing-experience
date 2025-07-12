@@ -23,7 +23,7 @@ export default function Expectations() {
 			<div className="w-full padding-x py-[20px]">
 				<div className="w-full flex justify-between sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px]">
 					<div className="w-[50%] sm:w-full xm:w-full">
-						<h3 className="paragraph font-medium text-white font-NeueMontreal">
+						<h3 className="paragraph font-medium text-white font-Formiga">
 							What you can expect?
 						</h3>
 					</div>
@@ -34,12 +34,12 @@ export default function Expectations() {
 								key={item.id}>
 								<div className="bg-[#145B52] w-full flex flex-col rounded-[20px] px-[30px] py-[20px]">
 									<div className="flex gap-x-[10px] items-center pb-[10px] mb-[100px] ">
-										<h1 className="sub-heading font-normal font-NeueMontreal text-white">
+										<h1 className="sub-heading font-normal font-Formiga text-white">
 											{item.title1}
 										</h1>
 									</div>
 									<div className="w-full flex justify-between items-center">
-										<button className="small-text font-normal font-NeueMontreal text-white">
+										<button className="small-text font-normal font-Formiga text-white">
 											<TextHover
 												titile1={item.subTitle1}
 												titile2={item.subTitle1}
@@ -47,7 +47,7 @@ export default function Expectations() {
 										</button>
 										<button
 											onClick={() => handleButtonClick(item.id)}
-											className="small-text uppercase font-normal font-NeueMontreal text-white">
+											className="small-text uppercase font-normal font-Formiga text-white">
 											{openItemId === item.id ? (
 												"hide"
 											) : (

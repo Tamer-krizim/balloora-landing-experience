@@ -15,7 +15,7 @@ export default function Projects() {
 						key={item.id}>
 						<div className="flex gap-[10px] items-center pb-[10px]">
 							<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
-							<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+							<h1 className="small-text uppercase font-medium font-Formiga text-secondry">
 								{item.title}
 							</h1>
 						</div>
@@ -26,8 +26,8 @@ export default function Projects() {
 						<div className="flex items-center gap-[10px] mt-[20px] flex-wrap">
 							{item.links.map((link) => (
 								<Tags
-									className="hover:text-white"
-									bgcolor="#212121"
+									className="hover:text-[#102E2A]"
+									bgcolor="#AEEC7A"
 									item={link}
 									key={link.id}
 								/>
@@ -37,12 +37,12 @@ export default function Projects() {
 				))}
 			</div>
 			<div className="w-full flex justify-center">
-				<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
+				<div className="flex items-center justify-between bg-[#AEEC7A] cursor-pointer rounded-full group">
 					<RoundButton
 						href="/presentation"
 						title="view all case studies"
 						bgcolor="#000"
-						className="bg-white text-black"
+						className="bg-white text-[#212121]"
 						style={{ color: "#fff" }}
 					/>
 				</div>

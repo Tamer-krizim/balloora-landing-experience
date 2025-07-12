@@ -31,7 +31,7 @@ export default function Navbar() {
 					<Link href={"/"}>
 						<Image
 							src={logo}
-							alt="ochi logo"
+							alt="Balloora Co. logo"
 							width={70}
 							height={70}
 						/>
@@ -41,7 +41,7 @@ export default function Navbar() {
 					{navbarItems.map((item) => (
 						<Link
 							key={item.id}
-							className={`w-fit paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover ${
+							className={`w-fit paragraph font-normal font-Formiga text-secondry capitalize flex flex-col hover ${
 								item.id === 5 && "ml-auto"
 							}`}
 							href={item.href}>

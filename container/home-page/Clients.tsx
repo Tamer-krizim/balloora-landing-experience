@@ -14,7 +14,7 @@ export default function Clients() {
 
 	return (
 		<section className="w-full padding-y">
-			<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+			<h1 className="sub-heading padding-x font-medium font-Formiga text-secondry pb-[50px]">
 				Clients’ reviews
 			</h1>
 			{clientsItem.map((item) => (
@@ -30,13 +30,13 @@ export default function Clients() {
 							<div className="w-[40%] sm:w-auto xm:w-auto">
 								<Link
 									href={item.href}
-									className="small-text font-normal font-NeueMontreal text-secondry link-flash">
+									className="small-text font-normal font-Formiga text-secondry link-flash">
 									{item.website}
 								</Link>
 							</div>
 							<div className="w-auto sm:hidden xm:hidden">
 								<motion.h3
-									className={`small-text font-normal font-NeueMontreal text-secondry ${
+									className={`small-text font-normal font-Formiga text-secondry ${
 										activeAccordion === item.id ? "opacity-100" : "opacity-0"
 									} opacity-0 transition-all duration-200 ease-in-out`}>
 									{item.title}
@@ -45,13 +45,13 @@ export default function Clients() {
 						</div>
 						<div className="w-[50%] flex items-center justify-between">
 							<div className="w-[40%] sm:w-auto xm:w-auto">
-								<h3 className="small-text font-normal font-NeueMontreal text-secondry">
+								<h3 className="small-text font-normal font-Formiga text-secondry">
 									{item.name}
 								</h3>
 							</div>
 							<div className="w-[10%] sm:w-auto xm:w-auto flex items-end justify-end">
 								<button
-									className={`small-text font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${
+									className={`small-text font-normal font-Formiga uppercase transition-all duration-200 ease-in-out ${
 										activeAccordion === item.id
 											? "text-gray-300"
 											: "text-secondry link-flash"
@@ -66,7 +66,7 @@ export default function Clients() {
 					<div
 						className={`w-full flex justify-between padding-x  sm:flex-col xm:flex-col`}>
 						<div className="w-[20%] sm:w-auto xm:w-auto" />
-						<div className="w-[30%] sm:w-auto xm:w-auto sm:flex xm:flex flex-wrap gap-x-[5px] sm:pt-[10px] xm:pt-[10px]">
+						<div className="w-[30%] sm:w-auto xm:w-auto sm:flex xm:flex flex-wrap gap-x-[9px] sm:pt-[10px] xm:pt-[10px]">
 							{item.links.map((link) => (
 								<AnimatePresence key={link.id}>
 									{activeAccordion === item.id && (
@@ -79,6 +79,7 @@ export default function Clients() {
 												duration: 1,
 											}}>
 											<Button
+												showArrow={false}
 												href={link.href}
 												title={link.title}
 												key={link.id}
@@ -108,7 +109,7 @@ export default function Clients() {
 												/>
 											</div>
 											<div className="">
-												<p className="small-text tracking-wider font-normal font-NeueMontreal text-secondry">
+												<p className="small-text tracking-wider font-normal font-Formiga text-secondry">
 													{item.review}
 												</p>
 											</div>

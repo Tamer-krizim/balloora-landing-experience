@@ -12,18 +12,18 @@ export default function About() {
 	return (
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
-				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Ochi is a strategic partner for fast-grow­ing tech
+				<h2 className="sub-heading font-normal font-Formiga text-secondry">
+					Balloora is a strategic partner for fast-grow­ing tech
 					<br className="sm:hidden xm:hidden" /> businesses that need to&nbsp;
-					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
+					<span className="sub-heading font-medium font-Formiga link-flash cursor-pointer">
 						raise funds,
 					</span>
 					&nbsp;sell prod­ucts, <br className="sm:hidden xm:hidden" />
-					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
+					<span className="sub-heading font-medium font-Formiga link-flash cursor-pointer">
 						ex­plain com­plex ideas,
 					</span>
 					&nbsp;and&nbsp;
-					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
+					<span className="sub-heading font-medium font-Formiga link-flash cursor-pointer">
 						hire great peo­ple.
 					</span>
 				</h2>
@@ -31,40 +31,23 @@ export default function About() {
 			<div className="w-full border-y border-[#21212155] my-[50px] py-[20px]">
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
 					<div className="w-[50%] sm:w-full xm:w-full">
-						<h3 className="sub-paragraph font-medium text-secondry font-NeueMontreal">
+						<h3 className="sub-paragraph font-bold text-secondry font-Formiga">
 							What you can expect?
 						</h3>
 					</div>
 					<div className="w-[50%] sm:w-full xm:w-full">
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
-							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
-								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
+								<p className="sub-paragraph font-light font-Formiga text-secondry tracking-wide">
 									We create tailored presentations to help you persuade your
 									colleagues, clients, or investors. Whether it’s live or
 									digital, delivered for one or a hundred people.
 								</p>
-								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
+								<p className="sub-paragraph font-light font-Formiga text-secondry tracking-wide">
 									We believe the mix of strategy and design (with a bit of
 									coffee) is what makes your message clear, convincing, and
 									captivating.
 								</p>
 							</div>
-							<div className="w-[60%] flex justify-end flex-col  sm:w-full xm:w-full">
-								<h1 className="sub-paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
-									S:
-								</h1>
-								<div className="flex flex-col">
-									{footerItems.map((item) => (
-										<LinkHover
-											key={item.id}
-											className="w-fit sub-paragraph font-medium capitalize before:h-[1px] after:h-[1px] before:bottom-[1px] after:bottom-[1px]"
-											title={item.title}
-											href={"/"}
-										/>
-									))}
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -76,7 +59,7 @@ export default function About() {
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
 						<RoundButton
-							href="/ochi-team"
+							href="/balloora-team"
 							title="read more"
 							bgcolor="#000"
 							className="bg-white text-black"

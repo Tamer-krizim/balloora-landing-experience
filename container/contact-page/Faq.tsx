@@ -11,7 +11,7 @@ export default function Faq() {
 
 	return (
 		<section className="w-full padding-y mt-[-10px] bg-background z-30 relative rounded-t-[20px]">
-			<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+			<h1 className="sub-heading padding-x font-medium font-Formiga text-secondry pb-[50px]">
 				A few things you <br />
 				may want to ask us:
 			</h1>
@@ -25,19 +25,19 @@ export default function Faq() {
 					}`}>
 					<div className="w-full flex items-center justify-between sm:gap-[15px] xm:gap-[15px] py-[10px] padding-x">
 						<div className="w-[50%] sm:w-full xm:w-full">
-							<h1 className="paragraph font-normal font-NeueMontreal text-secondry">
+							<h1 className="paragraph font-normal font-Formiga text-secondry">
 								{item.question}
 							</h1>
 						</div>
 						<div className="w-[50%] sm:w-full xm:w-full flex items-center justify-between">
 							<div>
-								<h3 className="paragraph font-normal font-NeueMontreal text-secondry">
+								<h3 className="paragraph font-normal font-Formiga text-secondry">
 									{item.title}
 								</h3>
 							</div>
 							<div className="flex items-end justify-end">
 								<button
-									className={`paragraph font-normal font-NeueMontreal uppercase transition-all duration-200 ease-in-out ${
+									className={`paragraph font-normal font-Formiga uppercase transition-all duration-200 ease-in-out ${
 										activeAccordion === item.id
 											? "text-gray-300"
 											: "text-secondry link-flash"
@@ -63,7 +63,7 @@ export default function Faq() {
 										}}>
 										<div className="flex flex-col gap-[20px] py-[30px]">
 											<div className="">
-												<p className="paragraph tracking-wider font-normal font-NeueMontreal text-secondry">
+												<p className="paragraph tracking-wider font-normal font-Formiga text-secondry">
 													{item.description}
 												</p>
 											</div>
@@ -71,10 +71,10 @@ export default function Faq() {
 												<div
 													key={link.id}
 													className="flex pt-[20px] sm:flex-col xm:flex-col sm:gap-[20px] xm:gap-[20px] justify-between gap-[80px]">
-													<span className="paragraph tracking-wider font-normal font-NeueMontreal text-secondry">
+													<span className="paragraph tracking-wider font-normal font-Formiga text-secondry">
 														{link.title}
 													</span>
-													<p className="paragraph tracking-wider font-normal font-NeueMontreal text-secondry">
+													<p className="paragraph tracking-wider font-normal font-Formiga text-secondry">
 														{link.description}
 													</p>
 												</div>

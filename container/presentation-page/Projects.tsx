@@ -23,7 +23,7 @@ export default function Projects() {
 			</div>
 			<section className="w-full relative z-30 padding-y rounded-t-[20px] bg-background">
 				<div>
-					<h2 className="sub-heading font-normal padding-x font-NeueMontreal text-secondry">
+					<h2 className="sub-heading font-light padding-x font-Formiga text-secondry">
 						Purpose driven, strategy-led presentations
 						<br className="sm:hidden xm:hidden" />
 						that people care about.
@@ -36,7 +36,7 @@ export default function Projects() {
 							key={item.id}>
 							<div className="flex gap-x-[10px] items-center pb-[10px]">
 								<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
-								<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+								<h1 className="small-text uppercase font-medium font-Formiga text-secondry">
 									{item.title}
 								</h1>
 							</div>

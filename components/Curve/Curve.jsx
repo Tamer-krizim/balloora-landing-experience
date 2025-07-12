@@ -8,7 +8,7 @@ const routes = {
 	"/": "Home",
 	"/services": "Services",
 	"/presentation": "Our Work",
-	"/ochi-team": "About Us",
+	"/balloora-team": "About Us",
 	"/insights": "Insights",
 	"/contact": "Contact Us",
 	"/case": "Workiz Easy",
@@ -49,10 +49,10 @@ export default function Curve({ children, backgroundColor }) {
 			<div
 				style={{ opacity: dimensions.width == null ? 1 : 0 }}
 				className="fixed h w-full pointer-events-none
-				 left-0 top-0 z-50 bg-black"
+				 left-0 top-0 z-50 bg-primery"
 			/>
 			<motion.p
-				className="absolute left-1/2 top-[40%] text-white text-[50px] z-[60] -translate-x-1/2 text-center"
+				className="absolute left-1/2 top-[40%] text-primery text-[50px] z-[60] -translate-x-1/2 text-center"
 				{...anim(text)}>
 				{routes[router.route]}
 			</motion.p>

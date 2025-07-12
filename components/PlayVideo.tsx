@@ -73,7 +73,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 								alt="img"
 								className="w-full h-full object-cover"
 							/>
-							<p className="absolute top-1/2 left-1/2 paragraph uppercase text-white font-NeueMontreal font-medium transform translate-x-[-50%] translate-y-[-50%]">
+							<p className="absolute top-1/2 left-1/2 paragraph uppercase text-secondry font-Formiga font-semibold transform translate-x-[-50%] translate-y-[-50%]">
 								{isPlaying ? "Pause" : "Play"}
 							</p>
 						</div>
@@ -90,7 +90,7 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 								alt="img"
 								className="w-full h-full object-cover"
 							/>
-							<p className="absolute top-1/2 left-1/2 paragraph uppercase text-white font-NeueMontreal font-medium transform translate-x-[-50%] translate-y-[-50%]">
+							<p className="absolute top-1/2 left-1/2 paragraph uppercase text-secondry font-Formiga font-semibold transform translate-x-[-50%] translate-y-[-50%]">
 								{isPlaying ? "Pause" : "Play"}
 							</p>
 						</div>
@@ -101,8 +101,8 @@ export default function PlayVideo({ videosrc }: { videosrc: string }) {
 					className={`w-full absolute top-[50%] transform translate-y-[-50%] gap-[30px] flex items-center justify-center ${
 						!isPlaying && "hidden"
 					}`}>
-					<button className="text-white text-[18px] bg-black px-[10px]  leading-none font-normal py-[5px] font-NeueMontreal rounded-[20px]">
-						pause
+					<button className="text-[#212121] text-[18px] bg-[#AEEC7A] px-[10px]  leading-none font-normal py-[5px] font-NeueMontreal rounded-[20px]">
+						Pause
 					</button>
 				</div>
 			</div>

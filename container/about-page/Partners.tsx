@@ -6,7 +6,7 @@ export default function Principles() {
 	return (
 		<section className="w-full bg-background">
 			<div>
-				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry">
+				<h1 className="sub-heading padding-x font-medium font-Formiga text-secondry">
 					We’ve built long-lasting partnerships
 					<br className="sm:hidden xm:hidden" /> with the most ambitious brands
 					<br className="sm:hidden xm:hidden" />
@@ -30,10 +30,10 @@ export default function Principles() {
 									/>
 								</div>
 								<div className="flex flex-col gap-[20px]">
-									<p className="paragraph text-secondry font-NeueMontreal font-normal underline">
+									<p className="paragraph text-secondry font-Formiga font-normal underline">
 										{item.title}
 									</p>
-									<p className="paragraph text-secondry font-NeueMontreal font-normal">
+									<p className="paragraph text-secondry font-Formiga font-normal">
 										{item.para}
 									</p>
 								</div>

@@ -14,7 +14,7 @@ export default function Publication() {
 			<div className="w-full padding-x">
 				<div className="w-full flex justify-between pt-[20px] sm:flex-col xm:flex-col gap-y-[20px]">
 					<div className="w-[30%] sm:w-full xm:w-full">
-						<h3 className="paragraph font-medium text-white font-NeueMontreal">
+						<h3 className="paragraph font-medium text-white font-Formiga">
 							Latest publication
 						</h3>
 					</div>
@@ -33,7 +33,7 @@ export default function Publication() {
 									</div>
 									<div className="flex gap-x-[10px] items-center pb-[10px]">
 										<span className="w-[10px] h-[10px] rounded-full bg-white" />
-										<h1 className="paragraph uppercase font-medium font-NeueMontreal text-white">
+										<h1 className="paragraph uppercase font-light font-Formiga text-white">
 											{item.title}
 										</h1>
 									</div>

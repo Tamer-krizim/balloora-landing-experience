@@ -32,7 +32,7 @@ export default function Hero() {
 				<div className="w-full flex flex-col">
 					<div className="w-full margin padding-x">
 						<div>
-							<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
+							<h1 className="heading tracking-[-1.3px] text-secondry font-semibold font-Formiga uppercase">
 								INSIGHTS
 							</h1>
 						</div>
@@ -40,7 +40,7 @@ export default function Hero() {
 					<div className="w-full border-t border-[#21212155] pt-[20px]">
 						<div className="w-full flex justify-between padding-x sm:flex-col xm:flex-col gap-[20px]">
 							<div className="w-[50%] sm:w-full xm:w-full">
-								<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+								<h3 className="paragraph font-medium text-secondry font-Formiga">
 									Latest insights:
 								</h3>
 							</div>
@@ -52,7 +52,7 @@ export default function Hero() {
 												className="w-fit rounded-[50px] border border-[#21212199] cursor-pointer bg-black"
 												key={item.id}>
 												<Link
-													className="small-text font-NeueMontreal uppercase text-white"
+													className="small-text font-Formiga uppercase text-white"
 													href={item.href}>
 													<div className="py-[2px]">
 														<p className="z-10 px-[15px]">{item.title}</p>
@@ -92,7 +92,7 @@ export default function Hero() {
 													key={link.id}>
 													<div className="rounded-[50px] border border-secondry py-[3px] px-[15px] cursor-pointer">
 														<Link
-															className="small-text font-NeueMontreal text-secondry uppercase"
+															className="small-text font-Formiga text-secondry uppercase"
 															href={"/"}>
 															{link.title}
 														</Link>
@@ -101,14 +101,14 @@ export default function Hero() {
 											))}
 										</div>
 										<div className="flex flex-col gap-[7px] mt-[10px]">
-											<h3 className="paragraph font-NeueMontreal font-normal text-secondry">
+											<h3 className="paragraph font-Formiga font-normal text-secondry">
 												Presenting to an International Audience: <br /> Tips and
 												Lessons Learned.
 											</h3>
-											<p className="paragraph font-NeueMontreal font-normal text-gray-400">
+											<p className="paragraph font-Formiga font-normal text-gray-400">
 												{item.subTitle}
 											</p>
-											<p className="paragraph font-NeueMontreal font-normal text-gray-400">
+											<p className="paragraph font-Formiga font-normal text-gray-400">
 												{item.date}
 											</p>
 										</div>

@@ -15,7 +15,7 @@ export default function Tags({
 			className="w-fit rounded-[50px] border border-[#21212199] cursor-pointer"
 			key={item.id}>
 			<Link
-				className={`small-text font-NeueMontreal uppercase ${className}`}
+				className={`small-text font-light font-Formiga uppercase ${className}`}
 				href={item.href}>
 				<Rounded
 					className="py-[2px]"

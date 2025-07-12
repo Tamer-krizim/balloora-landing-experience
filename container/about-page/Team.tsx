@@ -31,19 +31,19 @@ export default function Team() {
 									height={300}
 									className="rounded-[10px] sm:w-full xm:w-full"
 								/>
-								<p className="paragraph font-NeueMontreal font-normal text-secondry py-[10px]">
+								<p className="paragraph font-Formiga font-normal text-secondry py-[10px]">
 									Founder and CEO
 								</p>
 							</div>
 						</div>
 						<div className="flex justify-between items-end sm:flex-col xm:flex-col sm:items-start xm:items-start">
 							<div>
-								<h1 className="heading font-bold font-FoundersGrotesk text-secondry">
+								<h1 className="heading font-bold font-Formiga text-secondry">
 									IHOR <br /> HULYAHRODSKYY
 								</h1>
 							</div>
 							<div>
-								<h1 className="heading font-bold font-FoundersGrotesk text-secondry">
+								<h1 className="heading font-bold font-Formiga text-secondry">
 									1 / 4
 								</h1>
 							</div>

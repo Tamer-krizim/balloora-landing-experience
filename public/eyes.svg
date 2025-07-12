@@ -1,7 +1,5 @@
-<svg class="w-full h-auto overflow-visible flex-grow" data-eye="left" width="200" height="201" viewBox="0 0 200 201" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<circle cx="100" cy="100" r="100" fill="#F4F4F4"/>
-										<g class="eyes-svg__group origin-center">
-											<circle cx="100" cy="100" r="60" fill="#212121"/>
-											<circle cx="100" cy="50" r="8" fill="#F4F4F4"/>
-										</g>
-									</svg>
+<svg width="200" height="201" viewBox="0 0 200 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200Z" fill="#F4F4F9"/>
+<path d="M100 160C133.137 160 160 133.137 160 100C160 66.8629 133.137 40 100 40C66.8629 40 40 66.8629 40 100C40 133.137 66.8629 160 100 160Z" fill="#AEEC7A"/>
+<path d="M138.199 88.2729C140.059 77.2232 136.944 67.3211 123.957 65.0745C140.716 54.248 153.547 78.4339 138.199 88.2729Z" fill="#102E2A"/>
+</svg>

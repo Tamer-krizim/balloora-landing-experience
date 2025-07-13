@@ -4,7 +4,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { ochiside } from "@/public";
-import Spline from "@splinetool/react-spline"
 
 export default function Hero() {
 	return (

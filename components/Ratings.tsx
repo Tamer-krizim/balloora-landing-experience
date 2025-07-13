@@ -18,13 +18,13 @@ export default function Ratings() {
 						<Link
 							className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] text-about uppercase font-normal font-Formiga tracking-wider"
 							href={"/"}>
-							&copy;2019 - 2024
+							Balloora Gorup
 						</Link>
 					</div>
 				</div>
 			</div>
 			<div className="w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col flex gap-[15px]">
-				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
+				<div className="w-full flex items-center justify-center rounded-[10px] bg-[#ABFC00]/20 relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
 						src={brand02}
 						alt="brandImg"
@@ -34,18 +34,18 @@ export default function Ratings() {
 					<div className="absolute left-[25px] bottom-[35px] w-fit rounded-[50px] border border-white cursor-pointer">
 						<Link
 							className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] font-Formiga text-white uppercase tracking-wider"
-							href="/services">
+							href="https://supermarkoo.com">
 							<Rounded
 								backgroundColor="#fff"
 								className="">
 								<p className="z-10 px-[12px] py-[8px] hover:text-black">
-									rating 5.0 on clutch
+									Power of AI Agents
 								</p>
 							</Rounded>
 						</Link>
 					</div>
 				</div>
-				<div className="w-full flex items-center justify-center rounded-[10px] bg-secondry relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
+				<div className="w-full flex items-center justify-center rounded-[10px] bg-[#6CC571]/20 relative h-[60vh] sm:h-[50vh] xm:h-[50vh]">
 					<Image
 						src={brand03}
 						alt="brandImg"
@@ -55,12 +55,12 @@ export default function Ratings() {
 					<div className="absolute left-[25px] bottom-[35px] w-fit rounded-[50px] border border-white cursor-pointer">
 						<Link
 							className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] font-Formiga text-white uppercase tracking-wider"
-							href="/services">
+							href="https://coddly.com">
 							<Rounded
 								backgroundColor="#fff"
 								className="">
 								<p className="z-10 px-[12px] py-[8px] hover:text-black">
-									buisness bootcamp alumini
+									Coding Platform
 								</p>
 							</Rounded>
 						</Link>

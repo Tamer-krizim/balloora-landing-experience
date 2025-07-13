@@ -33,7 +33,7 @@ export default function Hero() {
 					</h1>
 				</div>
 				<div className="w-full pb-[15px]">
-					<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
+					<h3 className="paragraph font-medium text-secondry font-Formiga">
 						Fill the form below:
 					</h3>
 				</div>

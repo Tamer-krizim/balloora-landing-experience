@@ -52,7 +52,7 @@ export default function Curve({ children, backgroundColor }) {
 				 left-0 top-0 z-50 bg-primery"
 			/>
 			<motion.p
-				className="absolute left-1/2 top-[40%] text-primery text-[50px] z-[60] -translate-x-1/2 text-center"
+				className="absolute left-1/2 top-[40%] font-Formiga font-bold text-primery text-[50px] z-[60] -translate-x-1/2 text-center"
 				{...anim(text)}>
 				{routes[router.route]}
 			</motion.p>

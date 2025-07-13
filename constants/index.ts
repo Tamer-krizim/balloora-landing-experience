@@ -73,7 +73,7 @@ export const footernavbarItems = [
    {
       id: 4,
       title: "About us",
-      href: "ochi-team",
+      href: "balloora-team",
    },
    {
       id: 5,

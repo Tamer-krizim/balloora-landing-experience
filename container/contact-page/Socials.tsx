@@ -74,7 +74,7 @@ export default function Socials() {
 							<div className="flex w-fit h-fit gap-x-[5px] group">
 								<div className="rounded-[50px] border-[2px] border-[#21212155] group-hover:bg-secondry  py-[3px] px-[12px] cursor-pointer">
 									<Link
-										href="mailto:hello@ochi.design"
+										href="mailto:info@balloora.com"
 										className="paragraph font-Formiga text-secondry uppercase group-hover:text-background transition-all duration-200 ease-in">
 										info@balloora.com
 									</Link>

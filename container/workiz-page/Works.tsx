@@ -19,7 +19,7 @@ export default function Works() {
 						key={item.id}>
 						<div className="flex gap-x-[10px] items-center pb-[10px]">
 							<span className="w-[10px] h-[10px] rounded-full bg-white" />
-							<h1 className="text-[18px] leading-[21px] uppercase font-medium font-NeueMontreal text-white">
+							<h1 className="text-[18px] leading-[21px] uppercase font-medium font-Formiga text-white">
 								{item.title}
 							</h1>
 						</div>
@@ -43,7 +43,7 @@ export default function Works() {
 			<div className="w-full flex padding-y justify-center">
 				<div className="flex items-center justify-between bg-white cursor-pointer rounded-full group">
 					<Link
-						className="paragraph text-secondry uppercase font-normal font-NeueMontreal"
+						className="paragraph text-secondry uppercase font-normal font-Formiga"
 						href={"/presentation"}>
 						<Rounded
 							className="py-[6px]"
